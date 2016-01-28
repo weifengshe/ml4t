@@ -48,7 +48,7 @@ if __name__ == "__main__":
     # Assess the portfolio
     allocations, cr, adr, sddr, sr = optimize_portfolio(sd = start_date, ed = end_date,\
         syms = symbols, \
-        gen_plot = False)
+        gen_plot = True)
 
     # Print statistics
     print "Start Date:", start_date
